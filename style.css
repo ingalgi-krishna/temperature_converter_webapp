@@ -1,0 +1,93 @@
+body {
+  font-family: Trebuchet MS;
+  background: hsla(206, 91%, 66%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(206, 91%, 66%, 1) 0%,
+    hsla(190, 90%, 51%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(206, 91%, 66%, 1) 0%,
+    hsla(190, 90%, 51%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(206, 91%, 66%, 1) 0%,
+    hsla(190, 90%, 51%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5AB2F7", endColorstr="#12CFF3", GradientType=1 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.cal {
+  background-color: #faf9f6;
+  border: 2px solid #faf9f6;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  text-align: center;
+}
+
+select,
+input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 95%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  width: calc(100%);
+  appearance: none;
+  padding: 10px;
+  background: white url("images/arrow.png") no-repeat right center;
+  margin-right: 10px;
+  background-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select:hover {
+  border-color: #999;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  font-family: Trebuchet MS;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
